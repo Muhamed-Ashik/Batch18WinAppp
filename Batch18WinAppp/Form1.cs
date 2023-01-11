@@ -16,5 +16,10 @@ namespace Batch18WinAppp
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hey! New button added!");
+        }
     }
 }
